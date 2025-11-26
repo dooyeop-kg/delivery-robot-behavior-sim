@@ -1,0 +1,69 @@
+{
+  "behavior_models": {
+    "type_0": {
+      "description": "빠르게 직진하는 보행자 (Fast Straight Walker)",
+      "speed_mean": 1.0937,
+      "straightness": 1.0000,
+      "stop_rate": 0.0761,
+      "turn_rate": 0.0247,
+      "path_length_mean": 9.8459
+    },
+    "type_1": {
+      "description": "일반적인 보행자 (Normal Walker)",
+      "speed_mean": 0.9140,
+      "straightness": 1.0000,
+      "stop_rate": 0.0761,
+      "turn_rate": 0.0375,
+      "path_length_mean": 8.2268
+    },
+    "type_2": {
+      "description": "탐색형/지그재그형 보행자 (Exploration Walker)",
+      "speed_mean": 1.0700,
+      "straightness": 1.0000,
+      "stop_rate": 0.0789,
+      "turn_rate": 0.2490,
+      "path_length_mean": 9.6322
+    },
+    "type_3": {
+      "description": "느리고 특수한 보행자 (Slow/Outlier Walker)",
+      "speed_mean": 0.9834,
+      "straightness": 0.9995,
+      "stop_rate": 0.0477,
+      "turn_rate": 0.0387,
+      "path_length_mean": 8.8510
+    }
+  },
+
+  "location_distribution": {
+    "A": {
+      "type_0": 0.5894,
+      "type_1": 0.3229,
+      "type_2": 0.0857,
+      "type_3": 0.0020
+    },
+    "B": {
+      "type_0": 0.5925,
+      "type_1": 0.3235,
+      "type_2": 0.0807,
+      "type_3": 0.0033
+    },
+    "C": {
+      "type_0": 0.5989,
+      "type_1": 0.3174,
+      "type_2": 0.0805,
+      "type_3": 0.0032
+    },
+    "D": {
+      "type_0": 0.5957,
+      "type_1": 0.3254,
+      "type_2": 0.0767,
+      "type_3": 0.0022
+    },
+    "E": {
+      "type_0": 0.5978,
+      "type_1": 0.3227,
+      "type_2": 0.0760,
+      "type_3": 0.0035
+    }
+  }
+}
